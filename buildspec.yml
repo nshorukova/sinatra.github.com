@@ -5,7 +5,7 @@ phases:
     commands:
       # Upgrade AWS CLI to the latest version
       #- pip3 install awscli --upgrade --user
-
+      - gem install bundler:1.14.6
       # Install Ruby dependencies from the Gemfile.
       - bundle install --deployment
 
